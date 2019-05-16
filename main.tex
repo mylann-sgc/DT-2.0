@@ -64,7 +64,7 @@
     \vfill
 
     % Bottom of the page
-    {\large Version 2.0 - 05 Mars 2019}
+    {\large Version 2.3 - 16 Mai 2019}
 
   \end{center}
   \end{sffamily}
@@ -133,9 +133,9 @@ Avant de parler de l’infrastructure, je vais vous présenter les membres qui c
 L'infrastructure est gérée en interne, je m'explique :
 
 \begin{itemize}
-    \item \textbf{Serveurs :} Qu'ils soient physiques ou virtuels (sous un hyperviseur de type 1 : \textbf{Hyper-V)}, ils sont gérés par notre responsable et sous contrat chez différents prestataires / revendeurs. Tout les serveurs sont basés sur Windows Server (2008, 2012 R2).\\
+    \item \textbf{Serveurs :} Qu'ils soient physiques ou virtuels (sous un hyperviseur de type 1 : \textbf{Hyper-V)}, ils sont gérés par notre responsable et sous contrat chez différents prestataires / revendeurs. Tout les serveurs sont basés sur Windows Server (2003, 2008, 2012 R2).\\
     %%%%%%%%%%
-    \item \textbf{Clients :}Les collaborateurs de l’entreprise utilisent tous des machines physiques (postes fixes ou portables). Une liste exhaustive des différentes machines utilisées est présentée plus bas (Points 3.2.1 et 3.2.2). Les postes clients fonctionnent sous Windows 7 ou Windows 10. \\
+    \item \textbf{Clients :}Les collaborateurs de l’entreprise utilisent tous des machines physiques (postes fixes ou portables). Une liste exhaustive des différentes machines utilisées est présentée plus bas (Points 2.2.1 et 2.2.2). Les postes clients fonctionnent sous Windows 7 ou Windows 10. \\
 \end{itemize}
 L’ensemble des serveurs présents dans l’entreprise sont dupliqués vers un site distant (Data Center) dans le cadre du PRA (Plan de Reprise d’Activité).
 
@@ -364,11 +364,13 @@ Ces multiples tâches sont effectuées au quotidien au sein du service en parall
 Nous avons à notre disposition, lorsque que nous traitons des demandes/incidents :
 
 \begin{itemize}
+    \item Brainstorming, c'est-à-dire l'échange avec les membres de l'équipe IT
     \item Poste Informatique "personnel"
     \item Logithèque
     \item Base de connaissance sous GLPI
     \item Archive mail
-    \item Accès Internet
+    \item Connexion VPN
+    \item Accès Internet 
 \end{itemize}
 
 % ##### Page 8 ######
@@ -388,7 +390,7 @@ En détail du schéma ci-dessus, voici un exemple de notre démarche de support 
 
 \begin{enumerate}
 \item \textbf{L'utilisateur} constate qu'il n'arrive pas à ouvrir sa session Windows.
-\item Cet utilisateur va appelé le \textbf{Helpdesk} pour avoir l'un des 2 techniciens support et ainsi prend en charge l'incident.
+\item Cet utilisateur va appelé le \textbf{Helpdesk} pour avoir l'un des 2 techniciens support et ainsi prend en charge l'incident ou la demande.
 \item \textbf{L'un des techniciens support} prend en charge l'appel en posant les bonnes questions (ouvertes ou fermées).
 \item Le technicien qui à prit l'appel va ouvrir un ticket sous \textbf{GLPI} en mettant le plus de détails sur l'incident.
 \item  Si c'est possible, le technicien va \textbf{intervenir} à distance ou sinon sur site jusqu'à la \textbf{résolution} de l'incident en décrivant toutes les étapes sous le ticket ouvert précedemment.
